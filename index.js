@@ -12,7 +12,7 @@ const {socketIoHandler} = require('./SocketIO/socketIoHandler')
 const cors = require('cors')
 
 /* Router import */
-const router = require('./Routes/Router');
+const router = require('./Routes/router');
 const { socketIoEmitter } = require('./controllers/jobPostsLogic');
 
 /* import connection file */
